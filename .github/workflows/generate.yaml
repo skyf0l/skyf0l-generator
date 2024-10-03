@@ -21,6 +21,9 @@ jobs:
           node-version: 20
       - run: npm install
       - run: mkdir skyf0l && npm --silent start > skyf0l/README.md
+        env:
+          HTB_TOKEN: ${{ secrets.HTB_TOKEN }}
+          ROOTME_TOKEN: ${{ secrets.ROOTME_TOKEN }}
 
       - name: Commit changes
         run: |
