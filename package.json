@@ -1,0 +1,21 @@
+{
+  "name": "skyf0l-generator",
+  "author": "Skyf0l <skyf0lmails@proton.me>",
+  "description": "https://github.com/skyf0l/skyf0l daliy generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=18.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
