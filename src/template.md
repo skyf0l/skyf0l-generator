@@ -5,7 +5,7 @@ Currently playing VS Code: [![CodeTime badge](https://img.shields.io/endpoint?st
 Find me on:
 
 - [CodinGame](https://www.codingame.com/profile/15e936698224022d7f672e70c884b7489242353): Ranked <%= cg.ranking %>, top <%= cg.globalRank %>%
-- [HackTheBox](https://app.hackthebox.com/profile/444974): Ranked <%= htb.rank %>, <%= htb.ranking %> with <%= htb.rank_ownership %>% of content pwned
+- [HackTheBox](https://app.hackthebox.com/profile/444974): Ranked <%= htb.ranking %> as <%= htb.rank %> with <%= htb.rank_ownership %>% of content pwned
 - [Root-Me](https://www.root-me.org/skyf0l): Ranked <%= rootme.ranking %> with <%= rootme.score %> points
 
 ---
